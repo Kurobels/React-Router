@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;900&display=swap');
+
+body {
+  font-family: 'Saira Condensed', sans-serif;
+  background-color: #54585D;;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content-inner {
+  text-align: center;
+}
+
+.content-inner h1,
+.content-inner p,
+.content-inner button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  overflow: hidden; 
+}
+
+.image img {
+  width: 100%;
+  display: block;
+  object-fit: cover; 
+  object-position: 170%;
+}
+
+p {
+  font-size: larger;
+}
+
+.button {
+  text-decoration: none;
+  background: rgba(84, 88, 93, 1) !important;
+  box-shadow: 1px 2px 7px 6px rgba(0, 0, 0, 0.25), 3px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 50px !important;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+}
