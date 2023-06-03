@@ -57,3 +57,11 @@ p {
   padding: 10px 20px;
   display: inline-block;
 }
+
+.button:hover {
+  background: rgba(120, 124, 129, 1) !important;
+}
+
+.button:active {
+  background: rgba(60, 64, 69, 1) !important;
+}

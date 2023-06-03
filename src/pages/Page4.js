@@ -10,7 +10,7 @@ const Home = () => {
         <div className="content-inner">
           <h1>Sebastian Wayne Ramirez</h1>
           <p>Design</p>
-          <Link to="/Home" className="button">Next Page</Link>
+          <Link to="/home" className="button">Next Page</Link>
         </div>
       </div>
       <div className="image">
