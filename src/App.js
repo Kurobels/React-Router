@@ -8,7 +8,6 @@ import Page4 from './pages/Page4';
 import './App.css';
 
 const App = () => {
-  // Custom isActive function to handle Home link
   const isActive = (match, location) => {
     if (location.pathname === '/' || location.pathname === '/home') {
       return true;
