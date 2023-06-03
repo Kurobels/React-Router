@@ -9,7 +9,7 @@ const Home = () => {
       <div className="content">
         <div className="content-inner">
           <h1>Welcome to Our React Router</h1>
-          <p>WE have 5 pages including this page</p>
+          <p>We will show the members through pages</p>
           <Link to="/Page1" className="button">Next Page</Link>
         </div>
       </div>

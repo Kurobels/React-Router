@@ -29,22 +29,22 @@ const App = () => {
           </li>
           <li className="nav-item">
             <NavLink to="/page1" className="nav-link" activeClassName="active">
-              Page 1
+              Member 1
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/page2" className="nav-link" activeClassName="active">
-              Page 2
+              Member 2
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/page3" className="nav-link" activeClassName="active">
-              Page 3
+              Member 3
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/page4" className="nav-link" activeClassName="active">
-              Page 4
+              Member 4
             </NavLink>
           </li>
         </ul>
